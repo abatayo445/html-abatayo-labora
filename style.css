@@ -1,0 +1,344 @@
+*{
+    padding: 0px;
+    border: 0px;
+}
+
+.all{
+    width: 215vh;
+    margin-left: -10px;
+    background: linear-gradient(#FAF7F0, #4A4947);
+}
+
+img{
+    width: 400px;
+    height: 100px;
+}
+
+.p1{
+    margin-top: 200px;
+    margin-left: 150px;
+    width: 800px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 85px;
+}
+
+.bg{
+    background-image: url(./image/image.webp);
+    margin-top: 50px;
+    margin-left: -10px;
+    height: 770px;
+    width: 105%;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;  
+}
+
+.bgcolor{
+    width: 105%;
+    padding: 0px;
+    border: 0px;
+    background-color: white;
+}
+
+.hi{
+    border-radius: 10px;
+    background-color: skyblue;
+    color: white;
+}
+
+.p2{
+    margin-left: 25%;
+    width: 960px;
+    text-align: justify;
+    margin-top: 800px;
+    font-size: 17.9px;
+}
+
+.p3{
+    font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 40%;
+}
+
+.p4{
+    margin-left: 25%;
+    font-size: 40px;
+    font-weight: bold;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+.una{
+    font-size: 20px;
+    margin-left: 25%;
+}
+
+
+ol li{
+    width: 960px;
+    text-align: justify;
+}
+
+.last{
+    margin-left: -10px;
+    margin-bottom: -10px;
+    height: 200px;
+    width: 100%;
+    background-color: #B7B7B7;
+    padding: 40px;
+}
+
+.logss{
+    width: 100px;
+}
+
+.m1{
+    margin-left:90px;
+    width: 220px;
+    height: 60px;
+}
+
+.fa-facebook{
+    font-size: 45px;
+    color: #FDF7F4;
+    transition: .5s;
+}
+
+.fa-facebook:hover{
+    color: #0A5EB0;
+}
+
+.f1{
+    margin-left: 130px;
+    margin-top: -120px;
+}
+
+.fa-instagram{
+    font-size: 50px;
+    color: #FDF7F4;
+    transition: .5s;
+}
+
+.fa-instagram:hover{
+    color: #B03052;
+}
+
+.f2{
+    margin-left: 200px;
+    margin-top: -47px;
+}
+
+.dar2{
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-top: -20px;
+    background: linear-gradient(#FAF7F0, #4A4947);
+    height: 260vh;
+    width: 105%;
+    background-size: cover;
+    background-position: center;
+}
+.motto{
+    font-size: large;
+}
+    header {
+        color: black;
+        padding: 20px 0;
+        text-align: center;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .card {
+        margin-left: 300px;
+        text-align: justify;
+        width: 900px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 8px 10px #3C3D37;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease-in-out;
+        margin-top: 50px;
+        background-color: #EEEEEE;
+    }
+
+    .cards{
+        margin-left: 600px;
+        text-align: justify;
+        width: 900px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 8px 10px #3C3D37;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease-in-out;
+        margin-top: 50px;
+        background-color: #EEEEEE;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .cards:hover{
+        transform: translateY(-5px);
+
+    }
+
+    .atik{
+        margin-left: -110px;
+        border-radius: 8px;
+        padding: 20px;
+        width: 1005px;
+        height: 150px;
+        background-color:#EEEEEE;
+        box-shadow: 0 8px 10px #3C3D37;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0 cover 40%;
+    }
+    .log{
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        border-radius: 500%;
+        padding: 0px;
+        margin-left:  10px;
+        box-shadow: 0 8px 10px #3C3D37;
+    }
+    .logs{
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        border-radius: 500%;
+        padding: 0px;
+        margin-left: 80%;
+        box-shadow: 0 8px 10px #3C3D37;
+    }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(175, 175, 180);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #686464;
+  transform: translateY(-5px);
+}
+footer {
+            background: #333;
+            color: white;
+            padding: 30px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+            font-weight: 300;
+        }
+
+    .atiks{
+        border-radius: 8px;
+        padding: 20px;
+        width: 1005px;
+        height: 150px;
+        background-color:#EEEEEE;
+        box-shadow: 0 8px 10px #3C3D37;
+        margin-left: 100px;
+        animation: appear linear;
+        animation-timeline: view();
+        animation-range: entry 0 cover 40%;
+    }
+
+    li{
+        margin-left: 20px;
+    }
+
+    @keyframes appear{
+        from{
+            opacity: 0;
+           transform: translateX(-100px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+    .navbar{
+        padding: 0.5rem 1.5rem;
+        border-radius: 1rem;
+        margin-left: 700px;
+        margin-top: -95px;
+    }
+
+    .navlink{
+        display: flex;
+        gap: 2rem;
+    }
+
+
+    .navlinks, .dropdown li{
+        list-style: none;
+        height: 100%;
+        padding: 0.5rem 1rem;
+        font-weight: 600;
+        cursor: pointer;
+    } 
+
+    a{
+        text-decoration: none;
+        color: currentColor;
+    }
+
+    .dropdown{
+        margin-left: -150px;
+        font-size: 20px;
+        position: absolute;
+        background-color: antiquewhite;
+        border-radius: 10px;
+        color: black;
+        display: none;
+    }
+
+
+    .labs:hover .dropdown{
+        display: block;
+    }
+
+    .navbar a{
+        font-size: 30px ;
+    }
+
+    .navbar a:hover{
+        color: blue;
+    }
+
+    .atak{
+        margin-left: 50px;
+        width: 500px;
+    }
+
+    li{
+        display: inline-block;
+    }

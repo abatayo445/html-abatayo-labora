@@ -1,0 +1,139 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#FAF7F0, #4A4947);
+    color: #333;
+    text-align: center;
+}
+header {
+
+    color: rgb(148, 134, 134);
+    padding: 50px 0;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+h4 { 
+    margin-left: -200px;
+}
+p {
+    font-size: 1.3rem;
+    color: #546655;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.exercise-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px 20px;
+    transition: transform 0.5s ease;
+}
+.exercise-category {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    width: 280px;
+    box-shadow: 0 15px 30px #3C3D37;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+.exercise-category:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+}
+.exercise-category h2 {
+    margin: 0 0 20px;
+    font-size: 2rem;
+    color: #546655;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.exercise-category p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.exercise-category ul {
+
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    text-align: left;
+}
+.exercise-category ul li {
+    margin-bottom: 10px;
+    color: #666;
+    transition: color 0.3s ease;
+}
+.exercise-category ul li:hover {
+    color: #0307d1fb;
+}
+.btn-learn-more {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #849784;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+.btn-learn-more:hover {
+    background-color: #388e3c;
+}
+
+/* New animations for visual effects */
+.exercise-category:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #676e67;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease;
+}
+.exercise-category:hover:before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .exercise-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .exercise-category {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 30px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 300;
+}
